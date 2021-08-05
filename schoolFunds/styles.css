@@ -1,0 +1,57 @@
+body{
+    background-color:#DEE8D5;
+}
+#title{
+    color:white;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bolder;
+}
+#miniTitle{
+    color:white;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+}
+.jumbotron{
+    background-image:url("https://cdlnws.a.ssl.fastly.net/image/upload/f_auto,t_maximum,q_auto/content/uaqazswmmzyt71mq5zrh.jpg") ;
+    padding: 150px;
+    margin: 5px;
+}
+.paragraphOne{
+    font-family: 'Bitter', serif;
+    font-weight: bolder;
+    color:black;
+    padding: 50px;
+    margin: 50px;
+    padding-top: 5px;
+}
+#twoTitle{
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bolder;
+    color:#272838;
+}
+#twoMiniTitle{
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+    color: #272838;
+}
+#class{
+    padding: 10px;
+    margin: 10px;
+}
+#classroom{
+    padding:5px;
+    margin:5px;
+}
+.header{
+    border:double;
+    border-color:#4A4E69;
+}
+.paragraphTwo{
+    font-family: 'Bitter', serif;
+    padding: 15px;
+    margin: 20px;
+}
