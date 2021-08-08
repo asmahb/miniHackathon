@@ -12,6 +12,8 @@
     <title>Public 2.0 Donations</title>
   </head>
   <body>
+
+    <h1 id="donor">Donor Form</h1>
     <div class="form">
         <form>
             <p>First Name</p>
@@ -22,14 +24,23 @@
             <input type="text" name="phoneNumber"> <br>
             <p>Address</p>
             <input type="text" name="address"> <br>
-            <p>Which School Will you be Donating To?</p>
-            <input type="text" name="donating"> <br>
+         
+            <label for="whichSchoolWillYouBeDonatingTo" class="form-label">Which School will you be Donating to?</label>
+            <input class="form-control" list="datalistOptions" id="whichSchoolWillYouBeDonatingTo" placeholder="Type to search...">
+            <datalist id="datalistOptions">
+              <option value="School Name">
+              <option value="School Name">
+              <option value="School Name">
+            </datalist> <br>
+
             <p>What Will you be Donating?</p>
             <input type="text" name="donation"> <br>
+            <br>
+            <input type="submit" name="submit"> <br> <br>
         </form>
     </div>
 
- 
+    <img id="image" src="https://envoplan.co.uk/wp-content/uploads/2015/12/Darrick-Wood-School_039.jpg" width="900">
 
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>

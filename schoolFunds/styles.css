@@ -30,13 +30,13 @@ body{
     text-align: center;
     font-family: 'Didact Gothic', sans-serif;
     font-weight: bolder;
-    color:#272838;
+    color:plum;
 }
 #twoMiniTitle{
     text-align: center;
     font-family: 'Didact Gothic', sans-serif;
     font-weight: bold;
-    color: #272838;
+    color: plum;
 }
 #class{
     padding: 10px;
@@ -47,11 +47,55 @@ body{
     margin:5px;
 }
 .header{
-    border:double;
-    border-color:#4A4E69;
+    border:solid;
+    border-color:white;
 }
 .paragraphTwo{
-    font-family: 'Bitter', serif;
+    font-family: 'Didact Gothic', sans-serif;
     padding: 15px;
     margin: 20px;
+    color: gray;
+}
+#donor{
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    border-style: double;
+}
+.form{
+    padding: 50px;
+    margin:50px;
+}
+.btn-group{
+    position:absolute;
+    left:475px;
+}
+#donorFirst{
+    position:absolute;
+    right:450px
+}
+#registerFirst{
+    position: absolute;
+    left: 400px;
+}
+.registerForm{
+    position:absolute;
+    left:500px;
+    bottom:100px;   
+}
+#register{
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    border-style: double;
+}
+#image{
+    padding:5px;
+    margin:5px;
+    position: absolute;
+    left:200px;
 }
